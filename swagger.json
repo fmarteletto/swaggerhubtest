@@ -1,0 +1,146 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "HumanResourcesPlatform.WebApi",
+    "version": "1.0"
+  },
+  "components": {
+    "schemas": {
+      "employer": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": false,
+            "description": "Identificacao"
+          },
+          "name": {
+            "type": "string",
+            "nullable": false,
+            "description": "Nome"
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": false,
+            "description": "Idade"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": false,
+            "description": "Data Inclusao"
+          }
+        }
+      },
+      "employe": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": false,
+            "description": "Identificacao"
+          },
+          "name": {
+            "type": "string",
+            "nullable": false,
+            "description": "Nome"
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": false,
+            "description": "Idade"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": false,
+            "description": "Data Inclusao"
+          }
+        }
+      },
+      "person": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": false,
+            "description": "Identificacao"
+          },
+          "name": {
+            "type": "string",
+            "nullable": false,
+            "description": "Nome"
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": false,
+            "description": "Idade"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": false,
+            "description": "Data Inclusao"
+          }
+        }
+      },
+      "function": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": false,
+            "description": "Identificacao"
+          },
+          "name": {
+            "type": "string",
+            "nullable": false,
+            "description": "Nome"
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": false,
+            "description": "Idade"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": false,
+            "description": "Data Inclusao"
+          }
+        }
+      },
+      "rubric": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": false,
+            "description": "Identificacao"
+          },
+          "name": {
+            "type": "string",
+            "nullable": false,
+            "description": "Nome"
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": false,
+            "description": "Idade"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": false,
+            "description": "Data Inclusao"
+          }
+        }
+      }
+    }
+  }
+}
