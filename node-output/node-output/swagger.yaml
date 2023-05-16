@@ -1,0 +1,96 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "HumanResourcesPlatform.WebApi",
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "https://virtserver.swaggerhub.com/fmarteletto/Teste-JSON/1.0.0",
+    "description" : "SwaggerHub API Auto Mocking"
+  } ],
+  "components" : {
+    "schemas" : {
+      "employer" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      },
+      "employe" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      },
+      "function" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      }
+    }
+  }
+}
