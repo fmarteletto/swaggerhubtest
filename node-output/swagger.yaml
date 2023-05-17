@@ -2,15 +2,15 @@
   "openapi" : "3.0.1",
   "info" : {
     "title" : "HumanResourcesPlatform.WebApi",
-    "version" : "1.0.0"
+    "version" : "1.1"
   },
   "servers" : [ {
-    "url" : "https://virtserver.swaggerhub.com/fmarteletto/Teste-JSON/1.0.0",
-    "description" : "SwaggerHub API Auto Mocking"
+    "url" : "/"
   } ],
+  "paths" : { },
   "components" : {
     "schemas" : {
-      "employer" : {
+      "Employer" : {
         "type" : "object",
         "properties" : {
           "id" : {
@@ -37,7 +37,7 @@
           }
         }
       },
-      "employe" : {
+      "Employe" : {
         "type" : "object",
         "properties" : {
           "id" : {
@@ -64,7 +64,142 @@
           }
         }
       },
-      "function" : {
+      "Person" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      },
+      "Function" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      },
+      "Rubric" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      },
+      "Dependent" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      },
+      "TaxAllotment" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "description" : "Identificacao",
+            "nullable" : false
+          },
+          "name" : {
+            "type" : "string",
+            "description" : "Nome",
+            "nullable" : false
+          },
+          "age" : {
+            "type" : "integer",
+            "description" : "Idade",
+            "format" : "int32",
+            "nullable" : false
+          },
+          "date" : {
+            "type" : "string",
+            "description" : "Data Inclusao",
+            "format" : "date-time",
+            "nullable" : false
+          }
+        }
+      },
+      "Syndicate" : {
         "type" : "object",
         "properties" : {
           "id" : {
